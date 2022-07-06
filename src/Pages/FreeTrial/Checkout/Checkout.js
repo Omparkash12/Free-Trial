@@ -1,17 +1,17 @@
 import React from 'react';
 import './Checkout.css'
-import Coffee from './Coffee/Coffee';
-import Delivery from './Delivery/Delivery';
-import OrderConfirmation from './OrderConfirmation/OrderConfirmation';
-import ProgressBar from './ProgressBar/ProgressBar.js';
+import Coffee from '../Checkout/Checkout_Left_Side/Coffee/Coffee';
+import Delivery from '../Checkout/Checkout_Left_Side/Delivery/Delivery';
+import OrderConfirmation from '../Checkout/Checkout_Left_Side/OrderConfirmation/OrderConfirmation';
+import ProgressBar from '../Checkout/Checkout_Left_Side/ProgressBar/ProgressBar';
 
 // images
 import product_image from '../../Images/product_image.svg'
-import Subscription from './Subscription/Subscription';
-import FAQ from './FAQ/FAQ';
-import ProductReview from './Checkout_Right_Side/ProductReview/ProductReview';
-import CustomerReviews from './Checkout_Right_Side/CustomerReviews/CustomerReviews';
-import WhyChooseUs from './Checkout_Right_Side/Why_Choose_Us/WhyChooseUs';
+import Subscription from '../Checkout/Checkout_Left_Side/Subscription/Subscription';
+import FAQ from '../Checkout/Checkout_Left_Side/FAQ/FAQ';
+import ProductReview from '../Checkout/Checkout_Right_Side/ProductReview/ProductReview';
+import CustomerReviews from '../Checkout/Checkout_Right_Side/CustomerReviews/CustomerReviews';
+import WhyChooseUs from '../Checkout/Checkout_Right_Side/Why_Choose_Us/WhyChooseUs';
 
 
 const Checkout = () => {

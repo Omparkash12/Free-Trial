@@ -9,6 +9,7 @@ import Footer from '../Shared/Footer/Footer';
 // Images
 import crossIcon from '../Images/X_alert.svg';
 import brand_logo from '../Images/brand_logo.svg';
+// import Tabs from './Checkout/FAQ/Tabs/Tabs';
 
 const FreeTrial = () => {
   return (
@@ -18,6 +19,7 @@ const FreeTrial = () => {
         <FreeTrialAvailable timerHeading='FREE TRIAL IS STILL AVAILABLE' leftStock='47' days='05' hours='08' minutes='40' seconds='09' />
         <Checkout />
         <Footer />
+        {/* <Tabs /> */}
     </div>
   )
 }

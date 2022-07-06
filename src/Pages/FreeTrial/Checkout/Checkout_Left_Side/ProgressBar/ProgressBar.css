@@ -1,0 +1,216 @@
+.progressBar_section {
+    width: 100%;
+}
+
+.progress_data {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.progress_data a {
+    z-index: 2;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.progress_data a svg {
+    position: relative;
+    z-index: 5;
+}
+
+.coffee_icon:before {
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 3px;
+    background: #B2BCCA;
+    left: -4%;
+    top: 28%;
+    z-index: -1;
+    transition: 1s;
+}
+
+.delivery_icon:before {
+    content: "";
+    position: absolute;
+    width: 35.1%;
+    height: 3px;
+    z-index: -1;
+    background: #B2BCCA;
+    top: 28%;
+    left: 8.5%;
+    transition: 1s;
+}
+
+.summery_icon:before {
+    content: "";
+    position: absolute;
+    width: 38%;
+    height: 3px;
+    z-index: -1;
+    background: #B2BCCA;
+    top: 28%;
+    left: 51.9%;
+    transition: 1s;
+}
+
+.coffee_icon h3 {
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #B2BCCA;
+    margin: 0;
+    margin-top: 16px;
+}
+
+.delivery_icon h3 {
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B2BCCA;
+    margin: 0;
+    margin-top: 16px;
+}
+
+.summery_icon h3 {
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B2BCCA;
+    margin: 0;
+    margin-top: 16px;
+}
+
+@media screen and (max-width:1024px) {
+    .coffee_icon:before {
+        content: "";
+        position: absolute;
+        width: 5%;
+        height: 3px;
+        background: #B2BCCA;
+        left: -2.6%;
+        top: 28%;
+        z-index: -1;
+        transition: 1s;
+    }
+
+    .delivery_icon:before {
+        content: "";
+        position: absolute;
+        width: 41%;
+        height: 3px;
+        z-index: -1;
+        background: #B2BCCA;
+        top: 28%;
+        left: 5.4%;
+        transition: 1s;
+    }
+
+    .summery_icon:before {
+        content: "";
+        position: absolute;
+        width: 43%;
+        height: 3px;
+        z-index: -1;
+        background: #B2BCCA;
+        top: 28%;
+        left: 51.1%;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .delivery_icon:before {
+        content: "";
+        position: absolute;
+        width: 38%;
+        height: 3px;
+        top: 28%;
+        left: 7.4%;
+    }
+    .summery_icon:before {
+        content: "";
+        position: absolute;
+        width: 40%;
+        height: 3px;
+        top: 28%;
+        left: 51.5%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .coffee_icon:before {
+        content: "";
+        position: absolute;
+        width: 4%;
+        left: -2.6%;
+        top: 34%;
+        z-index: -1;
+    }
+    .delivery_icon:before {
+        content: "";
+        position: absolute;
+        width: 38%;
+        height: 3px;
+        top: 32%;
+        left: 7.4%;
+    }
+    .summery_icon:before {
+        content: "";
+        position: absolute;
+        width: 40%;
+        height: 3px;
+        top: 32%;
+        left: 51.1%;
+    }
+
+    .coffee_icon h3 {
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 4px;
+    }
+
+    .delivery_icon h3 {
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 4px;
+    }
+
+    .summery_icon h3 {
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 4px;
+    }
+
+    .progress_data a svg {
+        width: 35px;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .delivery_icon:before {
+        content: "";
+        position: absolute;
+        width: 32%;
+        height: 3px;
+        top: 32%;
+        left: 10.4%;
+    }
+    .summery_icon:before {
+        content: "";
+        position: absolute;
+        width: 36%;
+        height: 3px;
+        top: 32%;
+        left: 52.1%;
+    }
+}

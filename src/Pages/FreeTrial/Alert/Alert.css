@@ -1,5 +1,4 @@
 .alert_section .text_item_1 {
-    width: 50%;
     text-align: right;
     font-family: 'Futura LT';
     font-style: normal;
@@ -7,18 +6,18 @@
     font-size: 13px;
     line-height: 20px;
     color: #fff;
+    text-align: center;
 }
 
 .alert_section .text_item_2 {
-    width: 50%;
-    text-align: end;
+    position: absolute;
+    right: 0;
+    top: 10px;
 }
 
 .alert_section .alert_data {
     padding: 16px 0;
-    margin: auto;
-    display: flex;
-    align-items: center;;
+    position: relative;
 }
 .alert_section {
     background: #BE9C79;
@@ -28,18 +27,9 @@
 }
 
 @media screen and (max-width:1024px) {
-    .alert_section .text_item_1 {
-        text-align: unset;
-    }
 }
 
 @media screen and (max-width:576px) {
-    .alert_section .text_item_1 {
-        width: 90%;
-    }
-    .alert_section .text_item_2 {
-        width: 10%;
-    }
 }
 
 @media screen and (max-width:428px) {

@@ -1,6 +1,7 @@
 .brand_logo {
     display: flex;
     padding: 12px 0;
+    width: max-content;
 }
 .navbar_section {
     background: #FFFFFF;
